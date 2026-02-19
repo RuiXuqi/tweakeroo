@@ -1,8 +1,10 @@
 {
-	"required": true,
 	"package": "tweakeroo.mixin",
+	"required": true,
+	"refmap": "mixins.tweakeroo.refmap.json",
+	"target": "@env(DEFAULT)",
+	"minVersion": "0.8.5",
 	"compatibilityLevel": "JAVA_8",
-	"minVersion": "0.8",
 	"client": [
 		"render.model_override.BlockRendererDispatcherMixin",
 		"render.model_override.StateImplementationMixin",
